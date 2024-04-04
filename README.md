@@ -130,9 +130,10 @@ o	Users having no MFA on their accounts.
 o	Changes made to internal networking settings.
 
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 Architecture points: 
+
 ⦁	A finding is either generated from Security Command Center (and can also use Cloud Logging) and sent to a Pubsub topic
 
 ⦁	The Filter Cloud Function first can optionally run the finding through a series of Rego policies ( defined policies)  that will automatically mark the finding as a false positive and auto-close it.
