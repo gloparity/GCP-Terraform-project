@@ -130,7 +130,7 @@ o	Users having no MFA on their accounts.
 o	Changes made to internal networking settings.
 
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 Architecture points: 
 
